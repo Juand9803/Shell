@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 001 001 400 hello
+chmod u+x g+x groups+r hello
