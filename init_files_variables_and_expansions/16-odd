@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -v "2468"
+cat -n | grep -v [02468] | cut -f2 
