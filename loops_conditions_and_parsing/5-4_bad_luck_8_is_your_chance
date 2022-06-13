@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#this 4 change
+
+i=0
+
+while [ $i -eq 3 ]
+do
+	
+	if [ $i -eq 3 ]
+	then
+	
+		echo "bad luck"
+	elif [ $i -eq 7 ]
+	then
+		echo "good luck"
+	else
+		echo "best School"
+	fi
+	((i++))
+done
