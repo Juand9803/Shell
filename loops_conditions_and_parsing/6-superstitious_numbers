@@ -8,11 +8,11 @@ do
 echo "$1"
 case $1 in
 	"4") echo "bad luck from China"
-	;
+		;;
 	"9") echo "bad luck from Japan"
-	;
+		;;
 	"17") echo "bad luck from Italy"
-	;
-esac
-((1++))
+		;;
+	esac
+	((1++))
 done
