@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# this 1-122
+
+h=0
+
+while [ $h -le 12 ]
+
+do
+	echo "Hour: $h"
+
+	m=1
+
+	while [ $m -lt 60 ]
+
+	do
+		echo "$m"
+		((1++))
+	done
+	((h++))
+done
