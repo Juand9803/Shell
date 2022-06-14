@@ -14,7 +14,7 @@ do
 	then
 		echo "Fizz"
 
-	elif [ $((%5)) = 0 ]
+	elif [ $((n%5)) = 0 ]
 	then
 		echo "Buzz"
 	else
