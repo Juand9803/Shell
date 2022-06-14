@@ -14,7 +14,7 @@ do
 
 	do
 		echo "$m"
-		((1++))
+		((m++))
 	done
 	((h++))
 done
