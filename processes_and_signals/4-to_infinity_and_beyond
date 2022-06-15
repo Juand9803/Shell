@@ -5,7 +5,7 @@ n=1
 
 while [ $n -ne 0 ]
 do
-	echo "to infinity and beyond"
+	echo "To infinity and beyond"
 	sleep 2
 	((n++))
 done
