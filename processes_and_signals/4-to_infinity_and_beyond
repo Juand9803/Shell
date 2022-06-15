@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# number four
+
+n=1
+
+while [ $n -ne 0 ]
+do
+	echo "to infinity and beyond"
+	sleep 2
+	((n++))
+done
